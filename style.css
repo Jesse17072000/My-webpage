@@ -1,0 +1,44 @@
+.estilodosite
+{
+	font-size:12px;
+	font-style:italic;
+	text-align:justify;
+}
+ p
+ {
+ 	text-align: justify;
+ 	
+ }
+ body
+ {
+ 	background-color:#b0eacd;
+ 	font-family:Fantasy;
+ }
+
+ hr
+ {
+ 	border-style:dotted none none;
+ 	border-color:#142850;
+ 	border-width:11px;
+ 	width:15%;
+ }
+ h3
+ {
+ 	text-align:center;
+ 	color:#66BFBF;
+ }
+ h1
+ {
+ 	text-align:center;
+ 	color:#66BFBF;
+ }
+ table
+ {
+ 	display:table;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
+ img
+ {
+ 	display:inline-block;
+ }
