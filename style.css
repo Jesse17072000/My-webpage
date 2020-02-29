@@ -1,44 +1,143 @@
-.estilodosite
-{
-	font-size:12px;
-	font-style:italic;
-	text-align:justify;
+body{
+margin:0;
+text-align:center;
+font-family: 'Merriweather', serif;
 }
- p
- {
- 	text-align: justify;
- 	
- }
- body
- {
- 	background-color:#b0eacd;
- 	font-family:Fantasy;
- }
+h1{
+margin-top:50px;
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size:90px;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size:2.5rem;
+font-weight:normal;
+line-height:2;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+background-color:#5f6caf;
+padding-top:100px;
+}
+.middle-container{
+padding-top:30px;
+margin:100px 0;
+}
+a{
+	color:black;
+	font-family: 'Montserrat', sans-serif;
+	margin:10px 20px;
+	text-decoration:none;
+}
+a:hover{
+	color:#EAF6F6;
+}
+hr{
+	border:dotted #deddfa 6px;
+	border-bottom: none;
+	width:4%;
+	margin:100px auto;
+}
+.hrpad{
+	position:relative;
+	bottom:100px;
 
- hr
- {
- 	border-style:dotted none none;
- 	border-color:#142850;
- 	border-width:11px;
- 	width:15%;
- }
- h3
- {
- 	text-align:center;
- 	color:#66BFBF;
- }
- h1
- {
- 	text-align:center;
- 	color:#66BFBF;
- }
- table
- {
- 	display:table;
- 	margin-left:auto;
- 	margin-right:auto;
- }
- img
- {
- 	display:inline-block;
- }
+}
+.contact-me{
+	margin:auto;
+	position:relative;
+	bottom:90px;
+}
+.skill-row{
+	width:50%;
+	margin:100px auto 100px auto;
+	text-align:center;
+	line-height:2;
+}
+.intro
+{
+	width:30%;
+	margin:auto;
+}
+.skill-row2{
+	position:relative;
+	bottom:150px;
+	width:50%;
+	margin:100px auto 100px auto;
+	text-align:left;
+	line-height:2;
+}
+
+.bottom-container{
+ padding:50px 0 20px;
+ background-color:#5f6caf;
+}
+
+.gif{
+  width:32%;
+  float:left;
+  margin-right:30px;
+  margin-bottom:200px;
+}
+.game
+{
+	width:28%;
+     margin-left:30px;
+     position:relative;
+     top:250px;
+     left:425px;
+
+}
+.bottom-cloud
+{
+position:absolute;
+left:240px;
+bottom:100px;
+}
+.top-cloud
+{
+position:absolute;
+right:200px;
+top:70px;
+}
+.span
+{
+text-decoration:underline;
+}
+
+.contact-message{
+	width:40%;
+	margin:40px auto 60px;
+}
+
+.btn{
+	background-color:#010a50;
+	border-radius:13px;
+	border:1px solid ;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat',sans-serif;
+	font-size:18px;
+	padding:14px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin:50px;
+}
+.btn:hover {
+	background-color:#27496d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+ color:#EAF6F6;
+ font-size:0.75rem;
+ padding:20px 0;
+}
